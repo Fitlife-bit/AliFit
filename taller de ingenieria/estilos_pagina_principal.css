@@ -1,0 +1,223 @@
+#body{
+    background-color: rgb(40, 40, 40);
+    align-content: center;
+    width: 99%;
+    max-width: 100%;
+    margin: 0.5%;
+    font-size: 90%;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* barra de navegacion */
+
+#navbar{
+    background-color: black;
+    align-content: center;
+    border-radius: 10px;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#titulo{
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 1%;
+    max-width: 90%;
+}
+
+.cajas{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.links{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    display:block;
+    margin-left: 2%;
+    padding: 1%;
+    align-content: center;
+    text-transform: uppercase;
+    font-size: 90%;
+    min-width: max-content;
+}
+
+#conbus{
+    max-width: fit-content;
+    max-height: fit-content;
+    align-content: center;
+    margin-left: 2%;
+    
+}
+
+#buscador{
+    margin-left: 2%;
+    height: fit-content;
+    align-content: center;
+    align-items: center;
+    margin-top: 0.7%;
+    border: 1px;
+    border-style: solid;
+}
+
+#imgof{
+    min-height: 30px;
+    max-height: 100px;
+    margin-left: 90%;
+    display: flex;
+    margin-top: -8%;
+    padding: 1%;
+}
+
+/* acerca de nosotros */
+
+#presentacion{
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    min-height: 200px;
+}
+
+#subtitulo1{
+    text-transform: uppercase;
+    font-size: 300%;
+    margin-top: 1%;
+}
+
+.parrafos{
+    text-transform: uppercase;
+    font-size: medium;
+}
+
+/* recetas */
+
+#recetas{
+    background-color: gray;
+    border-radius: 10px;
+    margin-top: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.contenido{
+    padding: 6%;
+    border-radius: 10px;
+    margin-top: 1%;
+    max-width: 250px;
+}
+
+/* apartado de cada recetas */
+
+#pechugas{
+    background-image: url(imagenes/imagenes_recetas/pechuga_de_pollo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 15%;
+    border-radius: 10px;
+    width: fit-content;
+    color: black;
+    min-width: 200px;
+    min-height: 250px;
+}
+
+#huevo{
+    background-image: url(imagenes/imagenes_recetas/galletas-sin-huevo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0%;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 15%;
+    color: black;
+    min-width: 200px;
+    min-height: 250px;
+}
+
+#manuelitas{
+    background-image: url(imagenes/imagenes_recetas/manuelitas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0%;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 15%;
+    color: black;
+    min-width: 200px;
+    min-height: 250px;
+}
+
+#natilla{
+    background-image: url(imagenes/imagenes_recetas/natilla-colombiana.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0%;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 15%;
+    color: black;
+    min-width: 200px;
+    min-height: 250px;
+}
+
+#arroz_integral{
+    background-image: url(imagenes/imagenes_recetas/arroz_integral.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0%;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 15%;
+    color: black;
+    min-width: 200px;
+    min-height: 250px;
+}
+
+.nombre{
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+
+}
+
+.infoge{
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: 2;
+}
+
+.ingre{
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    display: none;
+}
+
+.prep{
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    #body{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 480px) {
+    #body{
+        width: 100%;
+    }
+}
+div{
+    width: 99%;
+}
